@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #585e68;
+  color: var(--text-color);
+
+}
+
+.calculator {
+  width: 285px;
+  height: 550px;
+  margin: 50px auto;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.display {
+  width: 100%;
+  height: 150px;
+  font-size: 24px;
+  text-align: right;
+  padding: 10px;
+  background-color: transparent;
+  margin-top: 5px;
+}
+
+.buttons {
+  padding: 8px;
+  margin-top: 50px;
+}
+
+.buttons button:hover {
+  background-color: #dedbdb;
+}
+
+.operator-btn0 {
+  width: 60px;
+  height: 30px;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 30px;
+  background-color: #615f61;
+  cursor: pointer;
+}
+
+.clear-btn {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 30px;
+  background-color: #918296;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  background-color: #f2f2f2;
+}
+
+.operator-btn1 {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 30px;
+  background-color: #918296;
+  cursor: pointer;
+}
+
+.number-btn {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #e0dfdf92;
+}
+
+.operator-btn {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 30px;
+  background-color: #997abc;
+  cursor: pointer;
+}
+
+.number-btn2 {
+  width: 114px;
+  height: 50px;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #e0dfdf92;
+}
+
+.equals-btn {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 30px;
+  background-color: #997abc;
+  cursor: pointer;
+}
+
