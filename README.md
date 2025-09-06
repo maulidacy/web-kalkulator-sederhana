@@ -45,4 +45,5 @@ Jika ada file CONTRIBUTING.md, ikuti panduan di sana untuk detail lebih lanjut.
 
 ## Lisensi
 
-Proyek ini menggunakan lisensi MIT. Lihat file LICENSE untuk detail lebih lanjut.
+Proyek ini menggunakan lisensi MIT. Lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
+
